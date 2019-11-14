@@ -1,2 +1,2 @@
 # .zsh
-My config file for tmux
+My config file for zsh
