@@ -12,8 +12,3 @@ plugins=(git tmux rake fzf)
 
 source $ZSH/oh-my-zsh.sh
 
-# Aliases
-alias hrmweb="~/Development/ee-dev/hrmweb"
-alias ee-scripts="~/Development/ee-dev/ee-scripts"
-alias ee='~/Development/ee-dev/kube-ee/scripts/ee.sh'
-alias kube-ee='~/Development/ee-dev/kube-ee'
