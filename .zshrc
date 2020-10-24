@@ -7,7 +7,7 @@ export ZSH="/home/$USER/.oh-my-zsh"
 ZSH_THEME="agnoster"
 
 # oh-my-zsh Plugins
-plugins=(git tmux rake fzf aws)
+plugins=(git tmux rake fzf aws kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
