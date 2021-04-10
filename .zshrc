@@ -11,3 +11,5 @@ plugins=(git tmux rake fzf aws kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
+# open or attach onto tmux on load
+{tmux attach || tmux new } &>/dev/null
