@@ -12,5 +12,4 @@ plugins=(git tmux rake fzf aws kubectl kube-ps1)
 source $ZSH/oh-my-zsh.sh
 
 # add kube context to prompt
-PROMPT='$(kube-ps1)'$PROMPT
-
+PROMPT='$(kube_ps1)'$PROMPT
