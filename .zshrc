@@ -7,9 +7,10 @@ export ZSH="/home/$USER/.oh-my-zsh"
 ZSH_THEME="agnoster"
 
 # oh-my-zsh Plugins
-plugins=(git tmux rake fzf aws kubectl)
+plugins=(git tmux rake fzf aws kubectl kube-ps1)
 
 source $ZSH/oh-my-zsh.sh
 
-# open or attach onto tmux on load
-{tmux attach || tmux new } &>/dev/null
+# add kube context to prompt
+PROMPT='$(kube-ps1)'$PROMPT
+
